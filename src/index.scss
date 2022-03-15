@@ -1,0 +1,11 @@
+@import './styles/_fonts.scss';
+
+body {
+   margin: 0;
+   color: rgba(0, 0, 0, 0.85);
+   font-family: 'BrownPro Regular', sans-serif;
+   font-weight: 400;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background-color: #e5e5e5;   
+}
