@@ -40,25 +40,6 @@
       flex-direction: column;
       padding: 25px 25px 30px 25px;
    
-      .form-element {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-         margin-bottom: 32px;
-   
-         &.form-element--is-valid {
-            .react-select__control,
-            input {
-               border-color: #62c8be;
-            }
-         }
-   
-         .label {
-            font-family: 'BrownPro-Bold';
-            margin-bottom: 10px;
-         }
-      }
-   
       button {
          margin-bottom: 80px;
       }

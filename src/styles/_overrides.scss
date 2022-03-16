@@ -47,7 +47,7 @@
 .react-select__control {
    font-family: "BrownPro-Regular", sans-serif;
    color: #323232 !important;
-   border: 1px solid #5a5a5a;
+   border: 1px solid #5a5a5a !important;
    border-radius: 5px;
    box-shadow: none !important;
 
@@ -57,7 +57,7 @@
 
    &.react-select__control--menu-is-open {
       border-color: #5a5a5a;
-      border-radius: 5px 5px 0 0;
+      box-shadow: 0 0 0 3px #62c8be52 !important;
    }
 
    .react-select__placeholder {
@@ -86,7 +86,7 @@
 
    .react-select__menu-list {
       border: 1px solid #5a5a5a;
-      border-radius: 0 0 5px 5px;
+      border-radius: 5px;
    }
 
    .react-select__option {

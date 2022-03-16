@@ -1,3 +1,22 @@
+.form-element {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-bottom: 32px;
+
+   &.form-element--is-valid {
+      .react-select__control,
+      input {
+         border-color: #62c8be !important;
+      }
+   }
+
+   .label {
+      font-family: "BrownPro-Bold";
+      margin-bottom: 10px;
+   }
+}
+
 button {
    padding: 11px 16px;
    font-family: "BrownPro-Regular";
@@ -16,7 +35,7 @@ button {
    }
 
    &:active:enabled {
-      transform: scale(.97);
+      transform: scale(0.97);
    }
 
    &[disabled] {
