@@ -100,7 +100,7 @@ function Calculator() {
             </div>
 
             <div className={`form-element ${selectedBygningstype ? 'form-element--is-valid' : ''}`}>
-               <div className="label">Tiltakstype</div>
+               <div className="label">Bygningstype</div>
                <Select
                   options={bygningstyper}
                   value={selectedBygningstype}
