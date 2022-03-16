@@ -1,12 +1,7 @@
-@font-face {
-   font-family: 'BrownPro-Bold';
-   src: local('BrownPro-Bold'), url('./assets/fonts/lineto-brown-pro-bold.woff') format('woff');
-}
-
-@font-face {
-   font-family: 'BrownPro-Regular';
-   src: local('BrownPro-Regular'), url('./assets/fonts/lineto-brown-pro-regular.woff') format('woff');
-}
+@import '~react-pure-modal/dist/react-pure-modal.min.css';
+@import './styles/_fonts.scss';
+@import './styles/_form.scss';
+@import './styles/_overrides.scss';
 
 body {
    margin: 0;
@@ -16,3 +11,4 @@ body {
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
+

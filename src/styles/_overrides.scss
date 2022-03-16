@@ -1,0 +1,118 @@
+.pure-modal-backdrop {
+   font-family: 'BrownPro-Regular';
+
+   .pure-modal {
+      width: auto;
+      min-width: 400px;
+   
+      .panel-heading {
+         background-color: #d9534f;
+   
+         .panel-title {
+            font-size: 16px;
+            color: #ffffff;
+            padding: 12px 15px;
+            font-family: 'BrownPro-Bold';
+   
+            .custom-panel-heading {
+               display: flex;
+               width: 100%;
+               justify-content: space-between;
+   
+               .close-button {
+                  background: url('../assets/gfx/icon-close.svg') no-repeat center;
+                  background-size: 12px;
+                  width: 12px;
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+
+      .panel-footer {
+         padding: 12px 15px;
+
+         div {
+            display: flex;
+            justify-content: end;
+         }
+      }
+   
+      .close {
+         display: none;
+      }
+   }
+}
+
+.react-select__control {
+   font-family: "BrownPro-Regular", sans-serif;
+   color: #323232 !important;
+   border: 1px solid #5a5a5a;
+   border-radius: 5px;
+   box-shadow: none !important;
+
+   &:hover {
+      border-color: #5a5a5a !important;
+   }
+
+   &.react-select__control--menu-is-open {
+      border-color: #5a5a5a;
+      border-radius: 5px 5px 0 0;
+   }
+
+   .react-select__placeholder {
+      color: #323232;
+      font-style: italic;
+   }
+
+   .react-select__indicator svg {
+      fill: #323232;
+      cursor: pointer;
+   }
+
+   .react-select__input-container {
+      padding: 6px;
+
+      .react-select__input {
+         box-shadow: none !important;
+         margin-left: -6px !important;
+      }
+   }
+}
+
+.react-select__menu {
+   box-shadow: none !important;
+   margin-top: -1px !important;
+
+   .react-select__menu-list {
+      border: 1px solid #5a5a5a;
+      border-radius: 0 0 5px 5px;
+   }
+
+   .react-select__option {
+      color: #323232;
+
+      &.react-select__option--is-focused,
+      &.react-select__option--is-selected {
+         background-color: #cff3ef;
+      }
+   }
+
+   ::-webkit-scrollbar {
+      width: 20px;
+   }
+
+   ::-webkit-scrollbar-track {
+      background-color: transparent;
+   }
+
+   ::-webkit-scrollbar-thumb {
+      background-color: #5a5a5a;
+      border: 6px solid transparent;
+      background-clip: content-box;
+   }
+
+   ::-webkit-scrollbar-thumb:hover {
+      background-color: #979797;
+   }
+}

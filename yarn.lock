@@ -4324,11 +4324,6 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-fuse.js@^6.5.3:
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.5.3.tgz#7446c0acbc4ab0ab36fa602e97499bdb69452b93"
-  integrity sha512-sA5etGE7yD/pOqivZRBvUBd/NaL2sjAu6QuSaFoe1H2BrJSkH/T/UXAJ8CdXdw7DvY3Hs8CXKYkDWX7RiP5KOg==
-
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
@@ -6225,11 +6220,6 @@ parent-module@^1.0.0:
   dependencies:
     callsites "^3.0.0"
 
-parse-decimal-number@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/parse-decimal-number/-/parse-decimal-number-1.0.0.tgz#f9d48399ae98f207935fd13dcbbc87654d865a2f"
-  integrity sha1-+dSDma6Y8geTX9E9y7yHZU2GWi8=
-
 parse-json@^5.0.0, parse-json@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-5.2.0.tgz#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
@@ -7057,6 +7047,11 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-pure-modal@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-pure-modal/-/react-pure-modal-2.1.0.tgz#cf2860620614554f3a4f69c582c3265fe3575918"
+  integrity sha512-GM3rK1MsNaflci5zGAMh0BJhjxjnsjyE1nMLfmjG6LLdAm4Re9QZBC4utc3Ek+wJbIJRFwW5hwS25wWWHIIloA==
 
 react-refresh@^0.11.0:
   version "0.11.0"

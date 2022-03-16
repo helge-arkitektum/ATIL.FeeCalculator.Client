@@ -1,0 +1,38 @@
+button {
+   padding: 11px 16px;
+   font-family: "BrownPro-Regular";
+   color: #ffffff;
+   border-radius: 5px;
+   background-color: #323232;
+   border: 0;
+   font-size: 15px;
+
+   &:enabled {
+      cursor: pointer;
+   }
+
+   &:hover:enabled {
+      background-color: #222222;
+   }
+
+   &:active:enabled {
+      transform: scale(.97);
+   }
+
+   &[disabled] {
+      opacity: 0.5;
+   }
+}
+
+input[type="number"] {
+   border: 1px solid #5a5a5a;
+   border-radius: 5px;
+   padding: 10px;
+   font-family: "BrownPro-Regular";
+   font-size: 16px;
+   outline: none !important;
+
+   &:focus {
+      box-shadow: 0 0 0 3px #62c8be52;
+   }
+}
