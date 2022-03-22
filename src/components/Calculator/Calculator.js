@@ -59,7 +59,7 @@ function Calculator() {
 
       if (gebyr) {
          setBeløp(`${gebyr.gebyrbeloep} NOK`);
-         setKategori(gebyr.gebyrkategori);
+         setKategori(gebyr.gebyrkategoribeskrivelse);
       } else {
          setErrorMessage('Kunne ikke kalkulere gebyrbeløp');         
       }
@@ -121,7 +121,7 @@ function Calculator() {
                </div>
 
                <div className={`form-element ${areal ? 'form-element--is-valid' : ''}`}>
-                  <div className="label">Brutto areal (m²)</div>
+                  <div className="label">Bruksareal (BRA m²)</div>
                   <input type="number" value={areal} onChange={event => setAreal(event.target.value)} placeholder="-- Skriv her" />
                </div>
 
