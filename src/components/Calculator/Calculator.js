@@ -66,7 +66,7 @@ function Calculator() {
    }
 
    async function handleKeyDown(event) {
-      if (event.code === 'Enter' && canCalculate()) {
+      if (canCalculate() && (event.code === 'Enter' || event.code === 'NumpadEnter')) {
          await calculate();
       }
    }
